@@ -23,6 +23,16 @@ import org.bukkit.plugin.java.JavaPlugin;
 import java.util.Arrays;
 
 public final class Spawn extends JavaPlugin {
+    public static final Boolean isFolia = isFolia()
+
+    private static boolean isFolia() {
+        try {
+            Class.forName("io.papermc.paper.threadedregions.RegionizedServer");
+            return true;
+        } catch (ClassNotFoundException e) {
+            return false;
+        }
+    }
 
     private static final Version SERVER_VERSION = Version.parse(Bukkit.getBukkitVersion());
 
@@ -32,6 +42,9 @@ public final class Spawn extends JavaPlugin {
 
     @Override
     public void onEnable() {
+        
+
+        
         // create all files and update them if outdated
         FileManager fileManager = new FileManager(this);
 
