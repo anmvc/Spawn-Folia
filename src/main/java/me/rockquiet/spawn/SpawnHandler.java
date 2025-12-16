@@ -133,9 +133,18 @@ public class SpawnHandler {
         if (config.getBoolean("use-player-head-rotation.enabled")) {
             Location location = spawnLocation.clone();
             location.setDirection(player.getLocation().getDirection());
-            player.teleport(location, PlayerTeleportEvent.TeleportCause.PLUGIN);
+
+            if (Spawn.isFolia) {
+                player.teleportAsync(spawnLocation, PlayerTeleportEvent.TeleportCause.PLUGIN);
+            } else {
+                player.teleport(spawnLocation, PlayerTeleportEvent.TeleportCause.PLUGIN);
+            }
         } else {
-            player.teleport(spawnLocation, PlayerTeleportEvent.TeleportCause.PLUGIN);
+            if (Spawn.isFolia) {
+                player.teleportAsync(spawnLocation, PlayerTeleportEvent.TeleportCause.PLUGIN);
+            } else {
+                player.teleport(spawnLocation, PlayerTeleportEvent.TeleportCause.PLUGIN);
+            }
         }
 
         spawnParticles(player);

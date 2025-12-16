@@ -21,7 +21,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 import java.util.Arrays;
 
 public final class Spawn extends JavaPlugin {
-    public static final Boolean isFolia = isFolia()
+    public static final Boolean isFolia = isFolia();
 
     private static boolean isFolia() {
         try {
