@@ -15,10 +15,12 @@ public class UpdateChecker {
     public UpdateChecker(Spawn plugin) {
         plugin.getServer().getScheduler().runTaskAsynchronously(plugin, () -> {
             try {
-                URL url = new URL("https://api.github.com/repos/rockquiet/spawn/releases/latest");
+                String pluginVersion = plugin.getDescription().getVersion();
+                
+                URL url = new URL("https://api.github.com/repos/anmvc/Spawn-Folia/releases/latest");
                 HttpURLConnection con = (HttpURLConnection) url.openConnection();
                 con.setRequestMethod("GET");
-                con.setRequestProperty("User-Agent", "Mozilla/5.0");
+                con.setRequestProperty("User-Agent", "SpawnPlugin/" + pluginVersion); // Let's be a good internet citizen.
 
                 if (con.getResponseCode() != HttpURLConnection.HTTP_OK) {
                     plugin.getLogger().warning("Unable to check for updates...");
@@ -33,7 +35,6 @@ public class UpdateChecker {
 
                 Version latest = Version.parse(jsonResponse.get("tag_name").getAsString());
 
-                String pluginVersion = plugin.getDescription().getVersion();
                 if (pluginVersion.contains("SNAPSHOT")) {
                     plugin.getLogger().info("You are running a development build, please report any bugs on the project's GitHub.");
                     plugin.getLogger().info("Latest release version: " + latest + ", you are using: " + pluginVersion);
