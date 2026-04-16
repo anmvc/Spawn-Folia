@@ -3,9 +3,9 @@
 [![Modrinth Downloads](https://img.shields.io/modrinth/dt/spawn?style=flat-square&logo=modrinth&labelColor=3A3025&color=407F35)](https://modrinth.com/plugin/spawn)
 [![Spigot Downloads](https://img.shields.io/spiget/downloads/106188?style=flat-square&logo=image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAD1BMVEVHcEwAAAD/0ADi6D86RuhWkE5HAAAAAXRSTlMAQObYZgAAAFBJREFUeJxljdERgDAIQ8OdAxicgHQCZQH3n0pqrT99P7y7QADAYkfHiIHFJ4yRwDWlDaHy7IPeMupOUkvVFiu5XL3hyLBXjIT/nfPLdq/yAL5yBqT7qDihAAAAAElFTkSuQmCC&labelColor=3A3025&color=407F35)](https://www.spigotmc.org/resources/106188)
 [![Hangar Downloads](https://img.shields.io/hangar/dt/spawn?style=flat-square&logo=image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAgBAMAAAAVss41AAAAJFBMVEVHcEz///////////////////////////////////////////8Uel1nAAAAC3RSTlMAH47fTa3EafI0C3ZKri0AAADwSURBVHicTZGvC8JQEMdPDeKSYBEsEwSFFbGJZcVkMRiEV7S6IgiCWNS6ZlBhxWZ3/ti8f87bfbfplePDvXff7/s+Iqlyr0p5FQy/3JwuzBw2s9GAk5qAaozqK3mAaKkL09FcR3XAE9cc0ELB8hVC6KfX4qtSCdQ+6LCB9TWYGyndt7LVzVbufQ7Pk8xJW9S9qEqwPORQ7Nop1Tk2zGNS8VfALWld0N3hk7QdTr7NM1DyQA9HT5qEHuZTmTLPaKvkzchaCQUgW0wOx3jD22goVypCwc2DFvVRlnWhIzk08uSttfj8/QMd/c3fJ9HNRv8CUjKn1XnSu4wAAAAASUVORK5CYII=&label=Downloads&labelColor=3A3025&color=407F35)](https://hangar.papermc.io/rockquiet/Spawn)
-[![GitHub Downloads](https://img.shields.io/github/downloads/rockquiet/joinprotection/total?style=flat-square&logo=github&labelColor=3A3025&color=407F35)](https://github.com/rockquiet/Spawn/releases)
+[![GitHub Downloads](https://img.shields.io/github/downloads/anmvc/Spawn-Folia/total?style=flat-square&logo=github&labelColor=3A3025&color=407F35)](https://github.com/anmvc/Spawn-Folia/releases)
 
-[![GitHub release (with filter)](https://img.shields.io/github/v/release/rockquiet/spawn?style=for-the-badge&labelColor=3A3025&color=407F35)](https://github.com/rockquiet/Spawn/releases)
+[![GitHub release (with filter)](https://img.shields.io/github/v/release/anmvc/Spawn-Folia?style=for-the-badge&labelColor=3A3025&color=407F35)](https://github.com/anmvc/Spawn-Folia/releases)
 ![Minecraft Versions](https://img.shields.io/badge/minecraft-1.8_--_1.21.11-407F35?style=for-the-badge&logoColor=407F35&labelColor=3A3025&color=407F35)
 ![Java](https://img.shields.io/badge/java-8+-407F35?style=for-the-badge&logoColor=407F35&labelColor=3A3025&color=407F35)
 
@@ -37,11 +37,11 @@ Yet another Spawn plugin with many configurable options.
 ## Documentation
 
 All commands, permissions and configuration options are available on
-the [GitHub Wiki](https://github.com/rockquiet/Spawn/wiki).
+the [GitHub Wiki](https://github.com/anmvc/Spawn-Folia/wiki).
 
 ## Download
 
-Plugin jars are available in the [Releases](https://github.com/rockquiet/Spawn/releases) section,
+Plugin jars are available in the [Releases](https://github.com/anmvc/Spawn-Folia/releases) section,
 on [Modrinth](https://modrinth.com/plugin/spawn), [Spigot](https://www.spigotmc.org/resources/106188)
 and [Hangar](https://hangar.papermc.io/rockquiet/Spawn).
 
