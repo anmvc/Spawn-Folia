@@ -54,6 +54,6 @@ and [Hangar](https://hangar.papermc.io/rockquiet/Spawn).
 
 This plugin uses bStats to collect some (non-identifying) data about the servers it runs on.
 You can opt out by editing the `config.yml` in the `/plugins/bStats` folder located in your server directory.
-(More information [here](https://bstats.org/getting-started))
+(More information [here](https://bstats.org/))
 
 [<img alt="bstats" src="https://bstats.org/signatures/bukkit/SpawnWasTaken.svg">](https://bstats.org/plugin/bukkit/SpawnWasTaken)
